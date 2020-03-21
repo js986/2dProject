@@ -163,6 +163,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(PlatformName)\$(Configuration)\</OutDir>
     <IntDir>$(PlatformName)\$(Configuration)\</IntDir>
+    <IncludePath>C:\Users\jorda\2dProject\libs\Chipmunk-7.0.0\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release SCRT|Win32'">
     <OutDir>$(PlatformName)\$(Configuration)\</OutDir>
